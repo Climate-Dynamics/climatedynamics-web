@@ -1,0 +1,23 @@
+html[data-theme="light"] {
+  --pst-color-primary: #4f8a96;
+  --pst-color-secondary: #a19574;
+  --pst-color-border: #ededed;
+  --pst-color-background: #f5f5f5;
+  --pst-color-on-background: #e6e6e6;
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: #4f8a96;
+  --pst-color-secondary: #a19574;
+  --pst-color-border: #141e1d;
+  --pst-color-background: #222222;
+  --pst-color-on-background: #333333;
+  --pst-color-surface: #333333;
+}
+
+/* Override the sidebar width */
+.bd-sidebar {
+    width: 250px;
+}
+
+
