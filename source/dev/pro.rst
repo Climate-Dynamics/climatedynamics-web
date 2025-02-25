@@ -2,6 +2,24 @@ Projects
 ========
 
 
+FACT - Fast/Fortran Atmospheric Model for Complex Terrain
+---------------------------------------------------------
+
+.. figure:: img/FACT_dark.png
+   :align: left
+
+FACT is an intermediate complexity model for downscaling climate in complex terrain (such as mountain regions). It combines process-based and empirical modelling. For rainfall, the former uses mountain wave theory and builds on the works of Smith and Barstad (2004) and Hergarten and Robl (2022). The latter uses parameter optimisation techniques and concepts from model output statistics. The model is still in early development. It is designed to work as a module for fast post-processing of climate model output.
+
+
+FPLT - Fortran Plotting Library
+-------------------------------
+
+.. figure:: img/FPLT.png
+   :align: left
+
+FPLT is a Fortran plotting library built mostly on GMT (Generic Mapping Tools). FPLT includes a Fortran interface for GMT (using GMT's C API). Additional features are provided through an abstraction layer that makes plotting a little easier. These features include derived types for colour maps, font management, options for different kinds of plots (e.g., maps, xy-scatter plots, raster plots), and more. It also includes procedures for automatic construction of colour maps and (the infamously cryptic) GMT argument strings from pre-defined or user-defined option sets. FPLT is currently developed further "as needed" for my research, but I hope it may become useful for other researchers as it continues to grow. However, you are very welcome to contribute (through suggestions, coding, etc.) at any stage.
+
+
 pyESD - Empirical-Statistical Downscaling with Python
 -----------------------------------------------------
 
@@ -13,18 +31,6 @@ PyESD is an open-source framework for empirical-statistical downscaling (ESD) of
 .. seealso::
 
    The full documentation of the package, including tutorials and example applications, can be found `here <https://dan-boat.github.io/PyESD/>`_.
-
-
-ICOM - Intermediate Complexity Orographic Climate Model
--------------------------------------------------------
-
-.. FACT - Fast/Fortran Atmospheric model for Complex Terrain
-.. ---------------------------------------------------------
-
-.. figure:: img/ICOM_dark.png
-   :align: left
-
-ICOM is an intermediate complexity model for downscaling climate in mountain regions. It combines process-based and empirical modelling. The former uses mountain wave theory and builds on the works of Smith and Barstad (2004) and Hergarten and Robl (2022). The latter uses parameter optimisation techniques and concepts from model output statistics. The model is still under heavy development.
 
 
 INTEGRATE - Climate Science Teaching Package

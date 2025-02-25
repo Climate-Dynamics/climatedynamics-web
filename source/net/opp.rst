@@ -4,15 +4,7 @@ Opportunities
 Positions
 ---------
 
-.. There are currently no funded positions available.
-
-.. admonition:: RainX: Downscaling and Prediction of Rainfall Extremes from Climate Model Outputs
-
-   The PhD project RainX will leverage climate modelling and extreme value theory to predict rainfall extremes - one of the grand challenges in climate change impact prediction. The full project description can be found on the ExaGEO website `here <https://www.exageo.org/phd-student-projects/>`_.
-
-.. admonition:: Additional PhD Opportunities
-
-   There are several additional PhD opportunities offered in the doctoral training programme ExaGEO. Please consult the list of projects advertised on the ExaGEO website `here <https://www.exageo.org/phd-student-projects/>`_.
+There are currently no funded positions available.
 
 .. note::
 
