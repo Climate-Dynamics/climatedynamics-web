@@ -2,22 +2,22 @@ Projects
 ========
 
 
-FACT - Fast/Fortran Atmospheric Model for Complex Terrain
----------------------------------------------------------
+FACT - Fortran Atmospheric Model for Complex Terrain
+----------------------------------------------------
 
 .. figure:: img/FACT_dark.png
    :align: left
 
-FACT is an intermediate complexity model for downscaling climate in complex terrain (such as mountain regions). It combines process-based and empirical modelling. For rainfall, the former uses mountain wave theory and builds on the works of Smith and Barstad (2004) and Hergarten and Robl (2022). The latter uses parameter optimisation techniques and concepts from model output statistics. The model is still in early development. It is designed to work as a module for fast post-processing of climate model output.
+FACT (Fast/Fortran Atmospheric Model for Complex Terrain) is an intermediate complexity model for downscaling climate in complex terrain (such as mountain regions). It combines process-based and empirical modelling. For rainfall, the former uses mountain wave theory and builds on the works of Smith and Barstad (2004) and Hergarten and Robl (2022). The latter uses parameter optimisation techniques and concepts from model output statistics. The model is still in early development. It is designed to work as a module for fast post-processing of climate model output.
 
 
 FPLT - Fortran Plotting Library
 -------------------------------
 
-.. figure:: img/FPLT.png
+.. figure:: img/FPLT_dark.png
    :align: left
 
-FPLT is a Fortran plotting library built mostly on GMT (Generic Mapping Tools). FPLT includes a Fortran interface for GMT (using GMT's C API). Additional features are provided through an abstraction layer that makes plotting a little easier. These features include derived types for colour maps, font management, options for different kinds of plots (e.g., maps, xy-scatter plots, raster plots), and more. It also includes procedures for automatic construction of colour maps and (the infamously cryptic) GMT argument strings from pre-defined or user-defined option sets. FPLT is currently developed further "as needed" for my research, but I hope it may become useful for other researchers as it continues to grow. However, you are very welcome to contribute (through suggestions, coding, etc.) at any stage.
+FPLT is a Fortran plotting library for producing publication-ready, high quality geographical maps, xy-plots, heat maps, animated figures, and more. It is built mostly on GMT (Generic Mapping Tools). FPLT includes a Fortran interface for GMT (using GMT's C API). Additional features, provided through an abstraction layer, include Fortran derived types for colour maps, font management, and options for specific kinds of plots. Furthermore, FPLT includes procedures for the automatic construction of colour maps and (the infamously cryptic) GMT argument strings from pre-defined or user-defined option sets. FPLT is currently developed further "as needed" for my research, but it may become useful for other researchers as it continues to grow - you are very welcome to contribute (through suggestions, coding, etc.) at any stage.
 
 
 pyESD - Empirical-Statistical Downscaling with Python

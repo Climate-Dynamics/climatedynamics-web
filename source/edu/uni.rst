@@ -14,9 +14,7 @@ See the complete list of degree programmes offered by the School of Geographical
 Postgraduate Taught Degrees
 ---------------------------
 
-The **"Environmental Futures: Sustainable Systems"** postgraduate taught degree programme provides multidisciplinary knowledge and expertise on the complex and challenging climate-related and environmental issues facing communities across the globe. The programme focuses on the dynamics of the Earth’s surface, atmosphere and hydrosphere, and considers their influence on processes that sustain life at a wide range of spatial and temporal scales. Sebastian Mutz and Karen Cameron both teach in the programme. (See the video below for a more personal introduction by Karen Cameron).
-
-.. youtube:: Shpfq0NWn1o
+The **"Environmental Futures: Sustainable Systems"** postgraduate taught degree programme provides multidisciplinary knowledge and expertise on the complex and challenging climate-related and environmental issues facing communities across the globe. The programme focuses on the dynamics of the Earth’s surface, atmosphere and hydrosphere, and considers their influence on processes that sustain life at a wide range of spatial and temporal scales.
 
 Sebastian Mutz is currently a convener of **"Environmental Futures: Sustainable Systems"**. For more information, you can consult the `programme website  <https://www.gla.ac.uk/postgraduate/taught/environmentalfuturessustainablesystems/>`_ or get in touch with him!
 
