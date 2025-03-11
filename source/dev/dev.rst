@@ -20,6 +20,7 @@ We develop models and educational resources with an emphasis on openness and eas
    :maxdepth: 1
    :hidden:
 
-   pro
+   sci_pro
+   edu_pro
    pub
 
