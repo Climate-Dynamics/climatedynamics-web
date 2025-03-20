@@ -31,7 +31,6 @@ pygments_style = 'zenburn'
 # -- Options for HTML output ----------------------------------------------
 
 html_theme = "pydata_sphinx_theme"
-html_logo = "img/integrateLogo256x256_ccby_SebastianMutz.png"
 html_logo = "img/CD_light.png"
 
 html_theme_options = {

@@ -16,6 +16,7 @@ The aim is to create a library that lets you:
 - produce professional figures quickly through the use of templates and automatic argument construction,
 - modify or create new templates easily from your programme.
 
+The entire project is hosted on `GitHub <https://github.com/sebastian-mutz/fplt/>`_.
 
 .. seealso::
 

@@ -15,6 +15,11 @@ html[data-theme="dark"] {
   --pst-color-surface: #333333;
 }
 
+/* Prevent image dimming in dark mode */
+html[data-theme="dark"] img {
+    filter: none !important;
+}
+
 /* Override the sidebar width */
 .bd-sidebar {
     width: 250px;
