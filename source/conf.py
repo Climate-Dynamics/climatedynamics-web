@@ -39,7 +39,14 @@ html_theme_options = {
     "logo": {
        "image_light": "img/CD_light.png",
        "image_dark": "img/CD_dark.png",
-    }
+    },
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/sebastian-mutz",
+            "icon": "fa-brands fa-github",
+        },
+    ],
 }
 
 html_sidebars = {
