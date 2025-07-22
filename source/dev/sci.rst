@@ -7,18 +7,19 @@ FSML - Fortran Statistics and Machine Learning Library
 .. figure:: img/FSML_dark.png
    :align: left
 
-FSML is a scientific toolkit consisting of common statistical and machine learning procedures, including basic statistics (e.g., mean, variance, correlation), common statistical tests (e.g., t-test, Kolmogorov-Smirnov), linear parametric methods and models (e.g., principal component analysis, discriminant analysis, Bayesian classifier), and non-linear statistical and machine learning procedures (e.g., k-means clustering).
+FSML (Fortran Statistics and Machine Learning) is a scientific toolkit consisting of common statistical and machine learning procedures, including basic descriptive statistics (e.g., mean, variance, correlation), common statistical tests (e.g., t-test, Mann–Whitney U), linear models (e.g., multiple OLS regression), and non-linear algorithmic statistical and machine learning procedures (e.g., k-means clustering).
 
 Key features:
 
 - Common statistics and machine learning techniques (as used in modern research).
 - Familiar/intuitive interface (similarities to popular Python or R libs).
-- Compromise between performance and readability (also suitable for demonstration, teaching, and tinkering).
-- Minimal requirements/dependencies (uses instrinsic functions; Fortran 2008 or later).
+- Core procedures are kept pure (to simplify parallelisation and testing), while impure wrappers handle optional arguments and errors for safe conventional use.
+- Minimal requirements/dependencies (Fortran 2008 or later, and stdlib).
+
 
 .. seealso::
 
-   The source code is hosted in a GitHub repository `here <https://github.com/sebastian-mutz/fsml/>`_.
+   The source code is hosted in a GitHub repository `here <https://github.com/sebastian-mutz/fsml/>`_. Its online documentation can be viewed `here <http://fsml.mutz.science/>`_
 
 
 FPLT - Fortran Plotting Library

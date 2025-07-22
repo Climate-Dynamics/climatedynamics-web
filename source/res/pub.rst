@@ -4,8 +4,6 @@ Publications
 Peer-Reviewed Articles
 ----------------------
 
-.. [24] Boateng, D., Mutz, S. G., Methner, K., Ballian, A., Meijers, M. J. M., Mulch, A., Ehlers, T. A. (2025) Refining paleoelevation estimates of the European Alps by simulating Middle Miocene climate and δ18O responses to diachronous surface uplift scenarios, Global and Planetary Change, 251, 104808. https://doi.org/10.1016/j.gloplacha.2025.104808
-
 .. [23] Guo, H., Pang, H., Wu, S., Xu, T., Mutz, S. G. , Zhan, Z., Lin, W., Zhang, W. and Hou, S. (2024) Global abnormal precipitation 18O depletion during late/post monsoon season. Earth and Planetary Science Letters, 641, 118815. https://doi.org/10.1016/j.epsl.2024.118815
 
 .. [22] Boateng, D., Aryee, J. N.A., Baidu, M., Arthur, F. and Mutz, S. G. (2024) West African Monsoon dynamics and its control on the stable oxygen isotopic composition of precipitation in the Late Cenozoic. Journal of Geophysical Research: Atmospheres, 129(10), e2024JD040. https://doi.org/10.1029/2024JD040748

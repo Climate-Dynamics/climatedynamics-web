@@ -15,6 +15,16 @@ Team Members and Collaborators
 .. |ico5| image:: img/herbert.jpg
 .. |ico6| image:: img/ali.jpg
 .. |ico7| image:: img/karen.jpg
+.. |ico8| image:: img/akoto.jpg
+
+
+.. topic:: Akoto, Doris Kyerewaa (PhD Researcher)
+
+    |ico8|
+
+    - Climate change, atmospheric variability, climate modeling, extreme weather events.
+    - University of Glasgow (Scotland, UK)
+    - *"I am a PhD student in the ExaGEO programme with a background in Meteorology and Climate Science. My research focuses on climate extremes and atmospheric variability, using high-resolution modeling to improve the prediction of extreme weather events. I am particularly interested in climate hazards in vulnerable regions and how science can inform effective adaptation strategies."*
 
 
 .. topic:: Ali, Syed Danish (MSc Researcher)
@@ -22,7 +32,7 @@ Team Members and Collaborators
     |ico6|
 
     - Climate tipping points, oceanography, geology.
-    - University of the Basque Country, Spain
+    - University of the Basque Country (Spain), visiting scholar at University of Glasgow (Scotland, UK)
     - *"I am interested in analyzing the impacts of climate change on Earth’s systems, a focus that aligns well with my background in Geology and my current master’s studies in Oceanography. I am particularly passionate about identifying and studying tipping elements, as they offer crucial insights into broader systemic changes triggered by abrupt transitions and nonlinear feedbacks. This focus has led me to pursue my master’s thesis on scrutinizing regime shifts in the climatic controls on Norwegian glaciers."*
 
 .. topic:: Boateng, Daniel (Dr. rer. nat., Researcher)
@@ -30,7 +40,7 @@ Team Members and Collaborators
     |ico1|
 
     - Climate change, Earth surface dynamics, palaeoclimate modelling, AI.
-    - University of Tübingen, Germany
+    - University of Tübingen (Germany)
 
 
 .. topic:: Cameron, Karen (Dr., Senior Lecturer)
@@ -38,7 +48,7 @@ Team Members and Collaborators
     |ico7|
 
     - Microbial communities in glacial environments
-    - University of Glasgow, Scotland (UK)
+    - University of Glasgow (Scotland, UK)
 
 
 .. topic:: Eizenhöfer, Paul (Dr., Senior Lecturer)
@@ -46,7 +56,7 @@ Team Members and Collaborators
     |ico2|
 
     - Landscape dynamics, numerical modelling, computational geoscience.
-    - University of Glasgow, Scotland (UK)
+    - University of Glasgow (Scotland, UK)
 
 
 .. topic:: Gross, Eskil Salis (MSc, Doctoral Researcher)
@@ -54,7 +64,7 @@ Team Members and Collaborators
     |ico0|
 
     - Palaeoclimate and ground temperature profile modelling.
-    - GFZ Potsdam, Germany
+    - GFZ Potsdam (Germany)
 
 
 .. topic:: Liu, Xiaohui (Dr., Lecturer)
@@ -62,7 +72,7 @@ Team Members and Collaborators
     |ico0|
 
     - Palaeoclimate reconstructions, sedimentary basins, stratigraphy, oxygen isotopes.
-    - China University of Potroleum – Beijing, China
+    - China University of Potroleum – Beijing (China)
 
 
 .. topic:: Meijers, Maud (Dr., Assistant Professor)
@@ -70,7 +80,7 @@ Team Members and Collaborators
     |ico0|
 
     - Palaeoenvironmental and palaeotopography reconstructions, field and lab based methods.
-    - University of Graz, Austria
+    - University of Graz (Austria)
 
 
 .. topic:: Mohadjer, Solmaz (Dr., Academic Associate)
@@ -78,7 +88,7 @@ Team Members and Collaborators
     |ico3|
 
     - Geohazards, mountain building and erosion, geoscience communication.
-    - University of Tübingen, Germany
+    - University of Tübingen (Germany)
 
 
 .. topic:: Mutz, Sebastian G. (Dr. rer. nat. habil., Senior Lecturer)
@@ -86,15 +96,15 @@ Team Members and Collaborators
     |ico4|
 
     - Climate change, Earth system dynamics, climate modelling, statistics, AI, computational geoscience.
-    - University of Glasgow, Scotland (UK)
-    - *"I am a senior lecturer (associate professor) at the University of Glasgow and investigate climate change and Earth system dynamics. I focus primarily on the interactions between climate and landscapes in mountains and coastal regions. I employ process-based models, empirical-statistical models, and techniques from AI. I am an advocate of „open science“ and multilateral collaboration, and an active member of the European Geosciences Union (EGU). I serve as a topical editor for the journals Earth System Dynamics and Geoscience Communication. Recent outreach efforts include the development of open and accessible educational materials about climate science and Earthquakes."*
+    - University of Glasgow (Scotland, UK)
+    - *"I am a senior lecturer (associate professor) and computational climatologist at the University of Glasgow. I investigate and model climate system dynamics and the regional/local impacts of climate change. I develop and apply statistical tools, data-driven and process-based models. I am an advocate of „open science“ and multilateral collaboration, and an active member of the European Geosciences Union (EGU). I serve as a topical editor for the journals Earth System Dynamics and Geoscience Communication. Recent outreach efforts include the development of open and accessible educational materials about climate science and Earthquakes."*
 
 .. topic:: Peck, Herbert (Don Paloma, Honorary Member)
 
     |ico5|
 
     - Pattern and face recognition, path optimisation, behavioural research
-    - Free Bird (Freelancer), Glasgow, Scotland (UK)
+    - Free Bird (Freelancer), Glasgow (Scotland, UK)
     - *"Peck, peck ... coo!"*
 
 
