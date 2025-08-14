@@ -16,6 +16,7 @@ Team Members and Collaborators
 .. |ico6| image:: img/ali.jpg
 .. |ico7| image:: img/karen.jpg
 .. |ico8| image:: img/akoto.jpg
+.. |ico9| image:: img/daniela.jpg
 
 
 .. topic:: Akoto, Doris Kyerewaa (PhD Researcher)
@@ -49,6 +50,14 @@ Team Members and Collaborators
 
     - Microbial communities in glacial environments
     - University of Glasgow (Scotland, UK)
+
+
+.. topic:: Castro-Camilo, Daniela (Dr., Senior Lecturer)
+
+    |ico9|
+
+    - Spatial/spatio-temporal extremes, climate extremes attribution, natural hazard and point process modelling
+    - University of Glasgow, School of Mathematics and Statistics (Scotland, UK)
 
 
 .. topic:: Eizenhöfer, Paul (Dr., Senior Lecturer)
