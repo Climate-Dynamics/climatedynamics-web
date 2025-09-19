@@ -43,7 +43,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/sebastian-mutz",
+            "url": "https://github.com/Climate-Dynamics",
             "icon": "fa-brands fa-github",
         },
     ],
