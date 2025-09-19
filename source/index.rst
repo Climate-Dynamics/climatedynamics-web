@@ -19,6 +19,5 @@ The *Climate Dynamics Lab* (led by Sebastian G. Mutz) focuses on climate and Ear
    
    res/res
    dev/dev
-   edu/edu
    net/net
 
