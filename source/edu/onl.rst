@@ -8,7 +8,7 @@ Climate Science Introduction (Free)
 .. figure:: img/integrateLogo.png
    :align: left
 
-The `course website <http://integrate.mutz.science>`_ for INTEGRATE (INTEGRation of Atmospheric science, Technical and Empirical methods) comprises a climate science mini-primer ("Building a Climate") that introduces the fundamental concepts of climate science as well as the primary controls on Earth's climate system. The exercise series comprise a crash course in coding (with Python) and practical problems that allow you to apply your knowledge of statistics to real problems in climate science. The source code (incl. all solutions for the exercises) is available on `GitHub <https://github.com/sebastian-mutz/integrate>`_.
+The `course website <https://integrate.mutz.science>`_ for INTEGRATE (INTEGRation of Atmospheric science, Technical and Empirical methods) comprises a climate science mini-primer ("Building a Climate") that introduces the fundamental concepts of climate science as well as the primary controls on Earth's climate system. The exercise series comprise a crash course in coding (with Python) and practical problems that allow you to apply your knowledge of statistics to real problems in climate science. The source code (incl. all solutions for the exercises) is available on `GitHub <https://github.com/sebastian-mutz/integrate>`_.
 
 
 

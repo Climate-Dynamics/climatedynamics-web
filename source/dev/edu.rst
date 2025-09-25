@@ -15,7 +15,7 @@ The project was supported by the European Geosciences Union and is listed in the
 
 .. seealso::
 
-   A full demonstration and explanation of the teaching package can be found on a compiled version of the course website that is hosted `here <http://integrate.mutz.science>`_.
+   A full demonstration and explanation of the teaching package can be found on a compiled version of the course website that is hosted `here <https://integrate.mutz.science>`_.
 
 
 ParsQuake - Earthquake Education Materials
