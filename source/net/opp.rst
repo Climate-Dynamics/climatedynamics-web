@@ -4,7 +4,11 @@ Opportunities
 Positions
 ---------
 
-There are currently no funded positions available.
+.. There are currently no funded positions available.
+
+- Sebastian G. Mutz is a supervisor in the `ExaGeo programme <\https://www.exageo.org/>`_. If you are interested in any of the advertised projects, you can `apply here <\https://www.exageo.org/apply/>`_.
+
+- Sebastian G. Mutz is a supervisor in the `DiveIn programme <\https://www.divein.org.uk/>`_. If you are interested in working out a project with Sebastian, you can `apply here <\https://www.divein.org.uk/apply/>`_.
 
 .. note::
 
