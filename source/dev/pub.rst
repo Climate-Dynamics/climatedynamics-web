@@ -4,6 +4,8 @@ Publications
 Peer-Reviewed Articles
 ----------------------
 
+.. [3] Mutz, S. G., (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Journal of Open Source Software, 10(116), 9058. https://doi.org/10.21105/joss.09058
+
 .. [2] Boateng, D. and Mutz, S. G. (2023). pyESD: An open-source Python framework for empirical-statistical downscaling of climate information. Geoscientific Model Development. https://doi.org/10.5194/gmd-16-6479-2023
 
 .. [1] Mohadjer S., Mutz S.G., Kemp M, Gill S., Ischuk A., Ehlers T.A. (2021). Using paired teaching for earthquake education in schools. Geoscience Communication. https://doi.org/10.5194/gc-4-281-2021

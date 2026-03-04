@@ -19,7 +19,7 @@ Key features:
 
 .. seealso::
 
-   The source code is hosted in a GitHub repository `here <https://github.com/sebastian-mutz/fsml/>`_. Its online documentation can be viewed `here <https://fsml.mutz.science/>`_.
+   The source code is hosted in a GitHub repository `here <https://github.com/sebastian-mutz/fsml/>`_. Its online documentation can be viewed `here <https://fsml.mutz.science/>`_. The associated publication in the Journal of Open Source Software can be read `here <https://doi.org/10.21105/joss.09058>`_.
 
 
 FPLT - Fortran Plotting Library

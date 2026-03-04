@@ -4,6 +4,8 @@ Publications
 Peer-Reviewed Articles
 ----------------------
 
+.. [25] Mutz, S. G., (2025). FSML – A Modern Fortran Statistics and Machine Learning Library. Journal of Open Source Software, 10(116), 9058. https://doi.org/10.21105/joss.09058
+
 .. [24] Boateng, D., Mutz, S. G., Methner, K., Ballian, A., Meijers, M. J.M., Mulch, A. and Ehlers, T. A. (2025) Refining paleoelevation estimates of the European Alps by simulating Middle Miocene climate and δ 18 O responses to diachronous surface uplift scenarios. Global and Planetary Change, 251, 104808. https://doi.org/10.1016/j.gloplacha.2025.104808
 
 .. [23] Guo, H., Pang, H., Wu, S., Xu, T., Mutz, S. G. , Zhan, Z., Lin, W., Zhang, W. and Hou, S. (2024) Global abnormal precipitation 18O depletion during late/post monsoon season. Earth and Planetary Science Letters, 641, 118815. https://doi.org/10.1016/j.epsl.2024.118815

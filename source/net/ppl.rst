@@ -36,12 +36,12 @@ Team Members and Collaborators
     - University of the Basque Country (Spain), visiting scholar at University of Glasgow (Scotland, UK)
     - *"I am interested in analyzing the impacts of climate change on Earth’s systems, a focus that aligns well with my background in Geology and my current master’s studies in Oceanography. I am particularly passionate about identifying and studying tipping elements, as they offer crucial insights into broader systemic changes triggered by abrupt transitions and nonlinear feedbacks. This focus has led me to pursue my master’s thesis on scrutinizing regime shifts in the climatic controls on Norwegian glaciers."*
 
-.. topic:: Boateng, Daniel (Dr. rer. nat., Researcher)
-
-    |ico1|
-
-    - Climate change, Earth surface dynamics, palaeoclimate modelling, AI.
-    - University of Tübingen (Germany)
+.. .. topic:: Boateng, Daniel (Dr. rer. nat., Researcher)
+..
+..     |ico1|
+..
+..     - Climate change, Earth surface dynamics, palaeoclimate modelling, AI.
+..     - University of Tübingen (Germany)
 
 
 .. topic:: Cameron, Karen (Dr., Senior Lecturer)

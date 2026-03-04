@@ -19,7 +19,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 # General information about the project.
 project = 'Climate Dynamics Lab'
-year = '2024'
+year = '2026'
 author = 'Sebastian G. Mutz'
 copyright = '{0}, {1}'.format(year, author)
 
