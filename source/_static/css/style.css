@@ -26,3 +26,15 @@ html[data-theme="dark"] img {
 }
 
 
+
+
+/* Don't show the "This Page" / local TOC on source pages */
+.sidebar-secondary-item div[role="note"][aria-label="source link"] h3 {
+    display: none;
+}
+/* Show a simple "show source"; no bullet point */
+.sidebar-secondary-item div[role="note"][aria-label="source link"] ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}

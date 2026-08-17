@@ -9,8 +9,7 @@ import pydata_sphinx_theme
 # sphinx extensions
 extensions = [
 #    "sphinx_design",
-    "sphinx.ext.intersphinx",
-    "sphinxcontrib.youtube"
+    "sphinx.ext.intersphinx"
  ]
 
 # source_suffix = ['.rst', '.md']

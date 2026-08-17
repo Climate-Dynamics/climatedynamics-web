@@ -7,16 +7,17 @@ The *"Climate Dynamics Lab"* is a somewhat non-traditional lab and network of re
 Team Members and Collaborators
 ------------------------------
 
-.. |ico0| image:: img/person.jpg
-.. |ico1| image:: img/boateng.jpg
-.. |ico2| image:: img/eizenhoefer.jpg
-.. |ico3| image:: img/mohadjer.jpg
-.. |ico4| image:: img/mutz.jpg
-.. |ico5| image:: img/herbert.jpg
-.. |ico6| image:: img/ali.jpg
-.. |ico7| image:: img/karen.jpg
-.. |ico8| image:: img/akoto.jpg
-.. |ico9| image:: img/daniela.jpg
+.. |ico0|  image:: img/person.jpg
+.. |ico1|  image:: img/boateng.jpg
+.. |ico2|  image:: img/eizenhoefer.jpg
+.. |ico3|  image:: img/mohadjer.jpg
+.. |ico4|  image:: img/mutz.jpg
+.. |ico5|  image:: img/herbert.jpg
+.. |ico6|  image:: img/ali.jpg
+.. |ico7|  image:: img/karen.jpg
+.. |ico8|  image:: img/akoto.jpg
+.. |ico9|  image:: img/daniela.jpg
+.. |ico10| image:: img/hagenbourger.jpg
 
 
 .. topic:: Akoto, Doris Kyerewaa (PhD Researcher)
@@ -36,12 +37,12 @@ Team Members and Collaborators
     - University of the Basque Country (Spain), visiting scholar at University of Glasgow (Scotland, UK)
     - *"I am interested in analyzing the impacts of climate change on Earth’s systems, a focus that aligns well with my background in Geology and my current master’s studies in Oceanography. I am particularly passionate about identifying and studying tipping elements, as they offer crucial insights into broader systemic changes triggered by abrupt transitions and nonlinear feedbacks. This focus has led me to pursue my master’s thesis on scrutinizing regime shifts in the climatic controls on Norwegian glaciers."*
 
-.. .. topic:: Boateng, Daniel (Dr. rer. nat., Researcher)
-..
-..     |ico1|
-..
-..     - Climate change, Earth surface dynamics, palaeoclimate modelling, AI.
-..     - University of Tübingen (Germany)
+.. topic:: Boateng, Daniel (Dr. rer. nat., Researcher)
+
+    |ico1|
+
+    - Climate change, Earth surface dynamics, palaeoclimate modelling, AI.
+    - University of Tübingen (Germany)
 
 
 .. topic:: Cameron, Karen (Dr., Senior Lecturer)
@@ -74,6 +75,14 @@ Team Members and Collaborators
 
     - Palaeoclimate and ground temperature profile modelling.
     - GFZ Potsdam (Germany)
+
+
+.. topic:: Hagenbourger, Marie (MSc by research, PhD researcher)
+
+    |ico10|
+
+    - Volcanic ash dispersion, NAME, volcanic hazards, co-PDCs
+    - Lancaster University (England, UK)
 
 
 .. topic:: Liu, Xiaohui (Dr., Lecturer)
