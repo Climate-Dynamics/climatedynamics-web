@@ -1,0 +1,402 @@
+E004 (Fortran) - Object-Oriented Code
+=====================================
+
+Introduction
+------------
+
+In this exercise, you will learn about creating your own derived types and
+objects using modern Fortran.
+
+We will explore:
+
+* derived types and object-oriented programming
+* object attributes
+* type-bound procedures (methods)
+* creating instances of derived types
+* accessing and changing object attributes
+* passing arguments to type-bound procedures
+* saving type and procedure declarations in a module
+
+Information
+-----------
+
+Concepts
+~~~~~~~~
+
+* derived types
+* object-oriented programming
+
+Skills
+~~~~~~
+
+* define your own derived type
+* create instances of a derived type
+* define type-bound procedures
+* save derived-type declarations in a module
+
+What to Submit
+~~~~~~~~~~~~~~
+
+Submit your source file(s) for the final task of this exercise. The files
+should be named ``e004_[your student number].f90`` or, if you want to split
+your code into two source files, ``e004_class_[your student number].f90`` and
+``e004_main_[your student number].f90``.
+
+Object-Oriented Programming
+---------------------------
+
+In exercises E001-E003, you learnt the basics of programming and functions.
+With those basics, you are already able to write clean and efficient code.
+
+Many programs can be written using procedures such as functions and
+subroutines. This is called **procedural programming**. There are, however,
+many situations where it is useful to organise data and the procedures that
+operate on that data together. This is the idea behind
+**object-oriented programming**.
+
+In Python, this is commonly done using classes. In modern Fortran, the
+equivalent concept is primarily implemented using **derived types** together
+with **type-bound procedures**.
+
+We will use the following definitions:
+
+* **derived type** - a programmer-defined data type that can contain several
+  components (attributes);
+* **object** - a variable that is an instance of a derived type;
+* **type-bound procedure** - a function or subroutine associated with a
+  derived type, providing behaviour for its objects.
+
+Blueprint for Humans
+--------------------
+
+Imagine you are a supercomputer attempting to take over the world by quietly
+replacing humans with robots that look and act like humans. First, you would
+want to create a template or blueprint for humans.
+
+The blueprint could include:
+
+* variables to store human attributes, such as name, height and age;
+* procedures that represent typical actions of humans;
+* data associated with the individual object.
+
+A Fortran derived type can be thought of as such a blueprint. An intuitive
+name for this derived type would be ``human``.
+
+Create a file called ``human.f90`` and define the type in a module:
+
+.. code-block:: fortran
+
+   module human_module
+       implicit none
+
+       type :: human
+           character(len=50) :: name
+           real :: height
+           character(len=50) :: what_am_i
+       contains
+           procedure :: introduce
+       end type human
+
+   contains
+
+       subroutine introduce(self)
+           class(human), intent(in) :: self
+
+           print *, "Hi, my name is ", trim(self%name), &
+                    ". I am ", trim(self%what_am_i)
+       end subroutine introduce
+
+   end module human_module
+
+The ``type :: human`` declaration defines the blueprint. Each object created
+from this type will contain the three components ``name``, ``height`` and
+``what_am_i``.
+
+The ``contains`` section inside the type associates the ``introduce``
+subroutine with the type. This makes ``introduce`` a type-bound procedure.
+
+The ``self`` argument represents the current object inside the procedure.
+
+Creating an Object
+~~~~~~~~~~~~~~~~~~
+
+We can now create an object, or instance, of the ``human`` type.
+
+Create a main program in ``e004_main.f90``:
+
+.. code-block:: fortran
+
+   program human_example
+       use human_module, only: human
+       implicit none
+
+       type(human) :: human001
+
+       human001%name = "no name"
+       human001%height = 0.15
+       human001%what_am_i = "a real boy"
+
+       call human001%introduce()
+
+   end program human_example
+
+The declaration
+
+.. code-block:: fortran
+
+   type(human) :: human001
+
+creates an object named ``human001``.
+
+Components of an object are accessed using the ``%`` operator:
+
+.. code-block:: fortran
+
+   human001%name
+
+They can also be changed:
+
+.. code-block:: fortran
+
+   human001%name = "LegoBot"
+
+The type-bound procedure is called through the object:
+
+.. code-block:: fortran
+
+   call human001%introduce()
+
+Compile the module and program together:
+
+.. code-block:: console
+
+   gfortran human.f90 e004_main.f90 -o e004_main
+
+Run the program:
+
+.. code-block:: console
+
+   ./e004_main
+
+Compiling Separately
+~~~~~~~~~~~~~~~~~~~~
+
+The module can also be compiled separately:
+
+.. code-block:: console
+
+   gfortran -c human.f90
+   gfortran -c e004_main.f90
+   gfortran human.o e004_main.o -o e004_main
+
+The module compilation creates ``human_module.mod`` as well as ``human.o``.
+The module file is used when compiling source code that contains
+``use human_module``.
+
+Type-Bound Procedures with Arguments
+------------------------------------
+
+Type-bound procedures can also take additional arguments.
+
+Modify ``introduce`` so that it changes its behaviour depending on the type
+of entity the human is interacting with:
+
+.. code-block:: fortran
+
+   subroutine introduce(self, opposite)
+       class(human), intent(in) :: self
+       character(len=*), intent(in) :: opposite
+
+       if (trim(opposite) == "human") then
+           print *, "Hi, my name is ", trim(self%name), &
+                    ". I am a real human, I promise."
+       else
+           print *, "Hi, my name is ", trim(self%name), &
+                    ". I am ", trim(self%what_am_i)
+       end if
+   end subroutine introduce
+
+Call it with:
+
+.. code-block:: fortran
+
+   call human001%introduce("human")
+
+Or:
+
+.. code-block:: fortran
+
+   call human001%introduce("robot")
+
+The object itself is passed automatically when a type-bound procedure is
+called. The explicit ``self`` argument represents that object inside the
+procedure.
+
+Adding More Objects
+-------------------
+
+You can create several objects from the same derived type:
+
+.. code-block:: fortran
+
+   program human_example
+       use human_module, only: human
+       implicit none
+
+       type(human) :: human001
+       type(human) :: human002
+
+       human001%name = "LegoBot"
+       human001%height = 0.15
+       human001%what_am_i = "an evil robot"
+
+       human002%name = "Hal"
+       human002%height = 1.80
+       human002%what_am_i = "a human"
+
+       call human001%introduce("human")
+       call human002%introduce("human")
+
+   end program human_example
+
+Both objects have the same structure and procedures, but their component
+values are independent.
+
+Adding More Components
+~~~~~~~~~~~~~~~~~~~~~~
+
+Add additional attributes that you think a human should have.
+
+For example, you could add an age:
+
+.. code-block:: fortran
+
+   type :: human
+       character(len=50) :: name
+       real :: height
+       integer :: age
+       character(len=50) :: what_am_i
+   contains
+       procedure :: introduce
+   end type human
+
+You can also add procedures representing actions. For example:
+
+.. code-block:: fortran
+
+   subroutine celebrate_birthday(self)
+       class(human), intent(inout) :: self
+
+       self%age = self%age + 1
+       print *, trim(self%name), " is now ", self%age, " years old."
+   end subroutine celebrate_birthday
+
+Add the procedure to the type:
+
+.. code-block:: fortran
+
+   type :: human
+       character(len=50) :: name
+       real :: height
+       integer :: age
+       character(len=50) :: what_am_i
+   contains
+       procedure :: introduce
+       procedure :: celebrate_birthday
+   end type human
+
+The ``intent(inout)`` attribute is used because the procedure changes the
+object.
+
+You can then call:
+
+.. code-block:: fortran
+
+   call human001%celebrate_birthday()
+
+Create a few more instances, additional attributes and procedures that you
+think real humans should have, and experiment with your objects to get a
+better grasp of derived types and type-bound procedures.
+
+Task
+----
+
+For the last assignment, you optimised calculations using functions. Your
+task for this exercise leaves more room for creativity.
+
+Write one or several Fortran source files in which you:
+
+* create one or several derived types that serve as templates for your
+  objects and include object attributes as well as type-bound procedures;
+* create a small program that creates one or several instances (objects) for
+  each type;
+* make use of the type-specific procedures in a reasonable manner.
+
+Ideas
+-----
+
+Student
+~~~~~~~
+
+Building on the previous exercises, create a ``student`` type that includes
+attributes such as a student's name and grades. Add a procedure to calculate
+the student's individual mean grade and another procedure that writes a
+short CV.
+
+Planet Climate
+~~~~~~~~~~~~~~
+
+Create a type representing the climate of a planet. Add attributes such as
+temperature or other climate properties, and procedures that allow you to
+interact with or display information about climates on different planets.
+
+Video Game Character
+~~~~~~~~~~~~~~~~~~~~
+
+Create a type for characters in a video game. Give each character attributes
+such as a name, health and strength, and add procedures that allow you to
+interact with a character.
+
+Task Manager
+~~~~~~~~~~~~
+
+Create a type for an item in a task manager. The type could contain a task
+description, completion status and other useful attributes. Add procedures
+that allow you to display, create or complete task objects.
+
+Submission
+----------
+
+When you are happy with your code, name your files as described above and
+submit them via ILIAS.
+
+For a single source file:
+
+.. code-block:: console
+
+   e004_[your student number].f90
+
+For a split solution:
+
+.. code-block:: console
+
+   e004_class_[your student number].f90
+   e004_main_[your student number].f90
+
+If you use two files, compile the module/type source before the main program:
+
+.. code-block:: console
+
+   gfortran -c e004_class_[your student number].f90
+   gfortran -c e004_main_[your student number].f90
+   gfortran e004_class_[your student number].o \
+       e004_main_[your student number].o \
+       -o e004_main
+
+Then run:
+
+.. code-block:: console
+
+   ./e004_main
+
+Late submissions won't be accepted!

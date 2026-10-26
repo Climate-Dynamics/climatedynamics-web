@@ -1,0 +1,6 @@
+program wildfire_simulation
+  use wildfire_module
+  implicit none
+  call wildfire_start()
+  call wildfire_evolve()
+end program wildfire_simulation

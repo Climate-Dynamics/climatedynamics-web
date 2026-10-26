@@ -8,7 +8,7 @@ import pydata_sphinx_theme
 
 # sphinx extensions
 extensions = [
-#    "sphinx_design",
+    "sphinx_design",
     "sphinx.ext.intersphinx"
  ]
 
@@ -34,7 +34,10 @@ html_logo = "img/CD_light.png"
 
 html_theme_options = {
     "show_prev_next": False,
-    "show_nav_level": 2,
+    "sidebar_includehidden": True,
+    "collapse_navigation": True,
+    "show_nav_level": 0,
+    "navigation_depth": 3,
     "logo": {
        "image_light": "img/CD_light.png",
        "image_dark": "img/CD_dark.png",
@@ -49,8 +52,8 @@ html_theme_options = {
 }
 
 html_sidebars = {
-    "index": [],  # Remove sidebars on landing page to save space
-    "general": ["general/info.html"],
+    "index": [],                # Remove sidebars on landing page
+    "learn/index": [],          # Remove sidebars on learn page
 }
 
 # These folders are copied to the documentation's HTML output
